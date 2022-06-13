@@ -1,0 +1,123 @@
+body {
+    background: #667db6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Goldman', cursive;
+    color: maroon;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 5px;
+    border: 3px solid maroon;
+    color: white;
+}
+
+.player_table,
+.pc_table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+
+span {
+    margin-bottom: 15px;
+
+}
+
+.name {
+    margin-left: 35px;
+}
+
+.name2 {
+    margin-left: 15px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.choice {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+img {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    transition: all .5s ease;
+}
+
+img:hover {
+    transform: scale(2);
+    /* border: 1px solid maroon;
+    border-radius: 5px; */
+}
+
+.elections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-top: 40px;
+    font-family: 'Roboto' cursive;
+    font-size: 30px;
+}
+
+.player-choice,
+.computer-choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-choice span,
+.computer-choice span {
+    text-decoration: underline;
+}
+
+.message {
+    height: 50px;
+    width: 450px;
+    border: 2px solid maroon;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+}

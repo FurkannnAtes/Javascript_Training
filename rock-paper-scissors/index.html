@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock-paper-scissors</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman&family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="still.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>SCOREBOARD</h2>
+      <div class="table">
+        <div class="player-table">
+          <span class="name">You</span>
+          <div style="color: black" class="box player-score">0</div>
+        </div>
+        <p style="font-size: 32px">VS</p>
+        <div class="pc-table">
+          <span class="name2">Computer</span>
+          <div style="color: black" class="box computer-score">0</div>
+        </div>
+      </div>
+      <div class="choice">
+        <img id="rock" src="img/rock.png" alt="" />
+        <img id="paper" src="img/paper.png" />
+        <img id="scissors" src="img/scissors.png" />
+      </div>
+      <div class="elections">
+        <div class="player-choice">
+          <span>Choice</span>
+          <img id="player-choice" src="img/qsMark.png" alt="" />
+        </div>
+        <div class="computer-choice">
+          <span>Computer</span>
+          <img id="computer-choice" src="img/qsMark.png" alt="" />
+        </div>
+      </div>
+      <div class="message"></div>
+    </div>
+    <script src="Js.js"></script>
+  </body>
+</html>

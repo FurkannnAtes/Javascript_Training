@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    max-width: 95%;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.randomNumberWrapper {
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.randomNumberBox {
+    color: white;
+    display: inline-block;
+    background-color: #ec0964;
+    min-width: 70px;
+    font-weight: 700;
+    font-size: 48px;
+
+}
+
+.gameInfo {
+    font-size: 18px;
+    color: #333;
+    padding: 20px;
+    background-color: rgb(199, 199, 247);
+    border: 1px solid rgb(245, 209, 209);
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 18px;
+
+}
+
+.inputWrapper {
+    display: flex;
+    margin-top: 5px;
+}
+
+.guessInput {
+    width: 250px;
+    height: 60px;
+
+}
+
+.submitGuess {
+    background-color: #ec0964;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+}
+
+.submitGuess:hover {
+    background-color: #f73985;
+    cursor: pointer;
+}
+
+.resultElements p {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 1px;
+}
+
+.resetButton {
+    width: 250px;
+    height: 60px;
+    background-color: #ec0964;
+    border: none;
+    color: white;
+}
+
+.resetButton:hover {
+    background-color: #f73985;
+    cursor: pointer;
+
+}

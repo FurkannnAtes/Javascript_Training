@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="still.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guess The Number</h1>
+      <div class="randomNumberWrapper">
+        <div class="randomNumberBox">?</div>
+      </div>
+      <p class="gameInfo">
+        We chose a random number between 1-100. You have 10 chances in total,
+        let's see if you can guess correctly. There will be hints for you at the
+        bottom until you guess it right.
+      </p>
+      <form>
+        <label for="">Guess a number</label>
+        <div class="inputWrapper">
+          <input type="text" id="quessInput" class="guessInput" />
+          <button type="button" class="submitGuess">Submit</button>
+        </div>
+      </form>
+      <div class="resultElements">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHight"></p>
+      </div>
+      <div class="buttonWrapper"></div>
+    </div>
+    <script src="Js.js"></script>
+  </body>
+</html>
